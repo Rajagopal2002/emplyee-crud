@@ -1,0 +1,62 @@
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #2c3e91, #4a5cd0);
+    padding: 1rem 0;
+}
+
+.page-title {
+    font-weight: 600;
+    color: #2c3e91;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.table thead {
+    background-color: #2c3e91;
+}
+
+.table thead th {
+    color: #fff;
+    font-weight: 500;
+    border: none;
+}
+
+.table td, .table th {
+    padding: 0.9rem 1rem;
+    vertical-align: middle;
+}
+
+.badge-department {
+    background-color: #e8ebfa;
+    color: #2c3e91;
+    padding: 0.35rem 0.7rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #2c3e91;
+    border-color: #2c3e91;
+}
+
+.btn-primary:hover {
+    background-color: #21306f;
+    border-color: #21306f;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #333;
+}
+
+.form-control:focus {
+    border-color: #4a5cd0;
+    box-shadow: 0 0 0 0.2rem rgba(74, 92, 208, 0.15);
+}
