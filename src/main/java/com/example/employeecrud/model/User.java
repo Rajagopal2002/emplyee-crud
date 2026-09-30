@@ -3,7 +3,7 @@ package com.example.employeecrud.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "users")
+@Table(name = "users",schema="usermanager")
 public class User {
 
     @Id

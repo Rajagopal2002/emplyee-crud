@@ -12,7 +12,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
 @Entity
-@Table(name = "employees")
+@Table(name = "employees",schema="workforce")
 public class Employee {
 
     @Id
