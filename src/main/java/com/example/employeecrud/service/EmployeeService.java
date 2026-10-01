@@ -17,8 +17,8 @@ public class EmployeeService {
         this.employeeRepository = employeeRepository;
     }
 
-    public List<Employee> getAllEmployees() {
-        return employeeRepository.findAll();
+    public List<Employee> getAllEmployees(Long userId) {
+        return employeeRepository.findByUserId(userId);
     }
 
     public Employee getEmployeeById(Long id) {
